@@ -64,7 +64,7 @@ st.write(
 )
 # --- HIGHLIGHTS ---
 st.write('\n')
-st.subheader("HIGHLIGHTS")
+st.subheader("Highlights")
 st.write(
     """
 - ✔️ Proficient in Django and Flask framework.
@@ -79,7 +79,7 @@ st.write(
 
 # --- SKILLS AND COMPETENCIES---
 st.write('\n')
-st.subheader("SKILLS AND COMPETENCIES")
+st.subheader("Skills And Competencies")
 st.write(
     """
 - 👩‍💻 Programming: Python(OOPs Concept,API development,Web Scraping,Pandas,numpy), C
@@ -95,7 +95,7 @@ st.write(
 
 # --- EMPLOYMENT HISTORY---
 st.write('\n')
-st.subheader("EMPLOYMENT HISTORY")
+st.subheader("Employment History")
 st.write(
     """
   1 .  Aricent/Altran/Capgemini, Bangalore, Karnataka
@@ -183,7 +183,7 @@ st.write(
 
 )
 
-# --- Projects & Accomplishments ---
+
 st.write('\n')
 st.subheader(" Proficiencies and Certification")
 st.write("---")
