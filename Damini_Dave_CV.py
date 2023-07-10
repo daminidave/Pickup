@@ -15,8 +15,7 @@ profile_pic = current_dir / "assets" / "profile-pic.png"
 PAGE_TITLE = "Digital CV | Damini Dave"
 PAGE_ICON = ":wave:"
 NAME = "Damini Dave"
-DESCRIPTION = """
-Python developer with strong proficiency in Python programming, extensive experience in developing efficient and scalable
+DESCRIPTION = """Software Engineer with strong proficiency in Python programming, extensive experience in developing efficient and scalable
  solutions, and expertise in various Python frameworks and libraries. 
 """
 EMAIL = "daminidave8@gmail.com"
@@ -35,24 +34,24 @@ with open(resume_file, "rb") as pdf_file:
 
 
 # --- HERO SECTION ---
-col1, col2 = st.columns(2)
-with col1:
-    images = Image.open(current_dir / "assets" / "profile-pic.png")
-    st.image(images, width=230)
+#col1, col2 = st.columns(2)
+#with col1:
+#    images = Image.open(current_dir / "assets" / "profile-pic.png")
+#    st.image(images, width=230)
     #newImage = image.resize((250, 250))
     #newimage = st.image(width=250)
     #st.image(newimage)
 
-with col2:
-    st.title(NAME)
-    st.write(DESCRIPTION)
-    st.download_button(
+#with col2:
+st.title(NAME)
+st.write(DESCRIPTION)
+st.download_button(
         label=" 📄 Download Resume",
         data=PDFbyte,
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
-    st.write("📫", EMAIL)
+st.write("📫", EMAIL)
 
 
 
@@ -98,7 +97,7 @@ st.write('\n')
 st.subheader("Employment History")
 st.write(
     """
-  1 .  Aricent/Altran/Capgemini, Bangalore, Karnataka
+  1 .  Aricent, Bangalore, Karnataka
   
         Feb 2018 - July 2022
         Designation: [Consultant/Senior software engineer]
@@ -123,8 +122,8 @@ st.write("**Project 1**")
 st.write("🚧", "**Consultant | Deloitte Cortex AI**")
 st.write(
     """
-    - ► Involved in the design and development of APIs for Cortex AI, a platform for selling assets including data and physical devices. Created APIs for the marketplace, facilitating the sale of datasets, and the solution space, enabling the sale of services.
-     - ► Utilized Django as the backend framework to design robust APIs with functionalities such as adding new assets, bookmarking assets, adding assets to cart, requesting assets, and providing feedback. 
+    - ► Worked in the design and development of APIs for Cortex AI, a platform for selling assets including data and physical devices. Created APIs for the marketplace, facilitating the sale of datasets, and the solution space, enabling the sale of services.
+     - ► Leveraged Django as the backend framework to design robust APIs with functionalities such as adding new assets, bookmarking assets, adding assets to cart, requesting assets, and providing feedback. 
     - ► Leveraged Postgres SQL as the database management system, ensuring efficient data storage and retrieval for the Cortex AI platform.  
     - ► Established a seamless flow of data in JSON format between the frontend and backend, optimizing communication and enabling efficient data exchange.
     - ► Implemented Python as the primary programming language for the development of the APIs, utilizing its extensive libraries and capabilities.
